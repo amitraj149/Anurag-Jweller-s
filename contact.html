@@ -1,59 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style-electric.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-salone.css">
+    <!-- Custom Js -->
+    <script src="custom.js"></script>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="Resourse/electric/fontawesome/all.min.css">
+    <script src="Resourse/electric/fontawesome/all.min.js"></script>
+    <!-- fontawesome END -->
+
+    <!-- Lightbox CSS & Script -->
+    <script src="Resourse/electric/lightbox/ekko-lightbox.js"></script>
+    <link rel="stylesheet" href="Resourse/electric/lightbox/ekko-lightbox.css" />
+
+    <!-- AOS CSS & Script -->
+    <script src="Resourse/electric/aos/aos.js"></script>
+    <link rel="stylesheet" href="Resourse/electric/aos/aos.css" />
+
+    <!-- Bootstrap CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+
+
     <title>Anurag Jwellar's</title>
     <link rel="icon" href="logo/logo9.png" />
-
-     <!-- Custom CSS -->
-     <link rel="stylesheet" href="style-electric.css">
-     <link rel="stylesheet" href="style.css">
-     <link rel="stylesheet" href="style-salone.css">
-     <!-- Custom Js -->
-     <script src="custom.js"></script>
-     <!-- fontawesome -->
-     <link rel="stylesheet" href="Resourse/electric/fontawesome/all.min.css">
-     <script src="Resourse/electric/fontawesome/all.min.js"></script>
-     <!-- fontawesome END -->
- 
-     <!-- Lightbox CSS & Script -->
-     <script src="Resourse/electric/lightbox/ekko-lightbox.js"></script>
-     <link rel="stylesheet" href="Resourse/electric/lightbox/ekko-lightbox.css" />
- 
-     <!-- AOS CSS & Script -->
-     <script src="Resourse/electric/aos/aos.js"></script>
-     <link rel="stylesheet" href="Resourse/electric/aos/aos.css" />
- 
-     <!-- Bootstrap CDN -->
-     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
-
-     <meta name="author" content="Amit" />
-     <meta name="description" content="This is a Jwellery-Shop website" />
-     <meta name="keywords" content="best Shop in Lalgang Raebareli" />
 </head>
 
 <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-md bg-dark sticky-top">
+    <nav class="navbar navbar-expand-sm sticky-top bg-dark px-4">
         <a class="navbar-brand" href="index.html">
-            <!-- <img src='resource/logo.png' width="35px"/> -->
-            <span class="text-white my-font ">Anurag Jwellar's</span>
+            <!-- <img id="logo" src='logo/logo11.png' width="120px" /> -->
+            <span class="myfont mycolor te">Anurag Jwellar's</span>
         </a>
-        <button class="navbar-toggler text-light" type="button" data-toggle="collapse" data-target="#myMenu">
-            <i class="fas fa-bars"></i>
+        <button class="navbar-toggler bg-dark text-white" type="button" data-toggle="collapse"
+            data-target="#collapsibleNavbar">
+            <span class="fa fa-bars"></span> Menu
         </button>
-        <div class="collapse navbar-collapse" id="myMenu">
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
-                    <a class="nav-link my-link" href="index.html">HOME</a>
+                    <a class="nav-link mycolor" href="index.html">HOME</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link mycolor" href="products.html">PRODUCTS</a>
-                </li>    
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mycolor" href="contact.html">CONTACT</a>
+                </li>
             </ul>
-            <a class="nav-link myfont mycolor h5" href="tel:+91-9305189315">CALL US TODAY: <img src="icons/call.png" alt=""> </a>
+            <div>
+                <a class="nav-link myfont mycolor h5" href="tel:+91-9305189315">CALL US TODAY: <img src="icons/call.png" alt=""></a>
+            </div>
         </div>
     </nav>
     <section class="text-center py-5">
@@ -90,23 +96,19 @@
                 height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
     </section>
-    <footer class="text-center p-5 bg-dark">
-        <a class="navbar-brand" href="index.html">
-            <!-- <img src='resource/logo.png' width="35px" /> -->
-            <span class="text-white my-font ">Anurag Jwellar's</span>
-        </a>
-        <hr class="bg-light" />
+    <!-- Footer -->
+    <footer class="bg-dark p-2">
         <div>
             <p class="text-white">
                 <a class="mycolor text-white" href="index.html" target="_blank">Anurag Jwellar's - </a>
                 Design by <a class="mycolor" href="index.html" target="_blank">AMIT</a> &copy; all rights reserved
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 Social Media:
-                <a class="mycolor" href="https://www.facebook.com/anurag.sony.796" target="_blank"><img
-                        src="icons/facebook.png" alt=""></a>
+                <a class="mycolor" href="https://www.facebook.com/anurag.sony.796" target="_blank"> <img
+                        src="icons/facebook.png" alt="" target="_blank"></a>
                 &nbsp;
-                <a class="mycolor" href="https://www.instagram.com/anuragsoni8866/" target="_blank"><img
-                        src="icons/instagram.png" alt=""></i></a>
+                <a class="mycolor" href="https://www.instagram.com/anuragsoni8866/" target="_blank">
+                    <img src="icons/instagram.png" alt="" target="_blank"></i></a>
             </p>
         </div>
     </footer>
@@ -130,5 +132,4 @@
   <script>
     AOS.init();
   </script>
-
 </html>
