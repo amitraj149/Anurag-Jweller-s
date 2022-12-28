@@ -1,0 +1,145 @@
+/* FIRST CSS */
+@font-face {
+    font-family: "GeckoLunch";
+    src: url(GeckoLunch.ttf);
+}
+nav{
+    border-bottom: 1px solid whitesmoke;
+}
+.my-font{
+    font-family: GeckoLunch;
+}
+.my-link{
+    color: white;
+}
+.my-link:hover{
+    color: rgb(199, 199, 199);
+}
+.my-banner{
+    background:linear-gradient(rgba(194, 194, 193, 0.3),rgba(51, 64, 247, 0.63)), url("Featur/feartur2.jpg") no-repeat center;
+    background-size: cover;
+    padding: 100px;
+    text-align: center;
+    color: white;
+}
+.my-button{
+    border: 2px solid rgb(247, 195, 132);
+    color: white;
+    background-color: transparent;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.my-icon{
+    font-size: 20px;
+    color: rgb(239, 176, 2);
+}
+.my-contact, .my-counter,footer{
+    background-color: rgb(39, 39, 39);
+}
+.my-service{
+    background-color: rgb(170, 170, 233);
+    background:linear-gradient(rgba(127, 118, 255, 0.518),rgba(245, 7, 7, 0.3)), url("/Banner/banner3.jpg") no-repeat center;
+    background-size: cover;
+    padding: 100px;
+    text-align: center;
+    color: white;
+}
+.my-service img{
+    border: 2px solid white ;
+    padding: 10px;
+    background: transparent;
+}
+.my-contact input{
+    background: transparent;
+    color: white;
+    border: 1px rgb(240, 240, 240) solid;
+    border-radius: 0;
+    padding: 5px;
+}
+#myTopBtn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+/* SECOND CSS */
+/* reset */
+@font-face {
+    font-family: TwistJelly;
+    src: url(TwistJelly.otf);
+}
+.myfont{
+    font-family: TwistJelly;
+}
+.mycolor{
+    color: white;
+}
+footer{
+    text-align: center;
+}
+footer p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.c-banner{
+    background:linear-gradient(rgba(36, 82, 90, 0.6), rgba(89, 221, 245, 0.6)),url("bg.jpg");
+    background-size: cover;
+    padding: 50px;
+    padding-bottom: 100px;
+    color: white;
+    background-attachment: fixed;
+}
+.c-banner h1{
+    font-weight: bold;
+}
+.c-banner p{
+    text-transform: uppercase;
+    line-height: 25px;
+}
+.c-banner input{
+    margin: 5px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+.c-form{
+    background-color: rgb(144, 163, 167);
+}
+.c-card{
+    text-align: center;
+    margin-top: -50px;
+}
+.card{
+    color: rgb(254, 253, 250);
+    padding: 20px 15px;
+    margin-bottom: 10px;
+    border: none;
+
+    background: linear-gradient(to right,rgb(248, 181, 109) 50%, rgb(12, 4, 248) 50% );
+    background-size: 200%;
+    background-position:right ;
+    transition: .5s ease;
+}
+.card:hover{
+    background-position:left ;
+    color: black;
+}
+.btn{
+    transition: transform .6s;
+}
+.btn:hover{
+    transform: translate(8px,0px);
+}
+.photo{
+    width: 120px;
+    border-radius: 50%;
+}
+#myTopBtn{
+    position: fixed;
+    font-size: 40px;
+    color: rgb(255 0 0 / 83%);
+}
+.r-bg{
+    background:linear-gradient(rgba(252, 252, 168, 0.3),rgb(255 0 0 / 83%))
+}

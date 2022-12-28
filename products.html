@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Anurag Jwellar's</title>
+    <link rel="icon" href="logo/logo9.png" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style-electric.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-salone.css">
+    <!-- Custom Js -->
+    <script src="custom.js"></script>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="Resourse/electric/fontawesome/all.min.css">
+    <script src="Resourse/electric/fontawesome/all.min.js"></script>
+    <!-- fontawesome END -->
+
+    <!-- Lightbox CSS & Script -->
+    <script src="Resourse/electric/lightbox/ekko-lightbox.js"></script>
+    <link rel="stylesheet" href="Resourse/electric/lightbox/ekko-lightbox.css" />
+
+    <!-- AOS CSS & Script -->
+    <script src="Resourse/electric/aos/aos.js"></script>
+    <link rel="stylesheet" href="Resourse/electric/aos/aos.css" />
+
+    <!-- Bootstrap CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+    <meta name="author" content="Amit" />
+    <meta name="description" content="This is a Jwellery-Shop website" />
+    <meta name="keywords" content="best Shop in Lalgang Raebareli" />
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-sm sticky-top bg-dark px-4">
+        <a class="navbar-brand" href="index.html">
+            <!-- <img id="logo" src='logo/logo11.png' width="120px" /> -->
+            <span class="myfont mycolor text-white">Anurag Jwellar's</span>
+        </a>
+        <button class="navbar-toggler bg-dark text-white" type="button" data-toggle="collapse"
+            data-target="#collapsibleNavbar">
+            <span class="fa fa-bars"></span> Menu
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link mycolor" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mycolor" href="contact.html">CONTACT</a>
+                </li>
+            </ul>
+            <div>
+                <a class="nav-link myfont mycolor h5" href="tel:+91-8429221378">CALL US TODAY: <img src="icons/call.png"
+                        alt=""></a>
+            </div>
+        </div>
+    </nav>
+    <section class="bg-light">
+        <div class="container py-5">
+            <h2 class="text-center">Photo Gallery</h2>
+            <div class="row">
+                <div class="col-sm-4 p-2">
+                    <a href="products/chain/chain02.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+                        <img src="products/chain/chain5.jpg" class="img-fluid" alt="" />
+                    </a>
+                </div>
+                <div class="col-sm-4 p-2">
+                    <a href="products/ring/g-ring2.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+                        <img src="products/ring/g-ring4.jpg" class="img-fluid" alt="" />
+                    </a>
+                </div>
+                <div class="col-sm-4 p-2">
+                    <a href="products/ear-rings/ear-ring013.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+                        <img src="products/ear-rings/ear-ring4.jpg" class="img-fluid" alt="" />
+                    </a>
+                </div>
+                <div class="col-sm-4 p-2">
+                    <a href="products/ring/ring 500/ring4.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+                        <img src="products/ring/ring 500/ring4.jpg" class="img-fluid" alt="" />
+                    </a>
+                </div>
+                <div class="col-sm-4 p-2">
+                    <a href="products/ear-rings/ear-ring6.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+                        <img src="products/ear-rings/ear-ring6.jpg" class="img-fluid" alt="" />
+                    </a>
+                </div>
+                
+                <div class="col-sm-4 p-2">
+                    <a href="products/payal/payal2.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+                        <img src=" products/payal/payal1.jpg" class="img-fluid" alt="" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="text-center p-5 bg-dark">
+        <a class="navbar-brand" href="index.html">
+            <!-- <img src='resource/logo.png' width="35px" /> -->
+            <span class="text-white my-font ">Anurag Jwellar's</span>
+        </a>
+        <hr class="bg-light" />
+        <div>
+            <p class="text-white">
+                <a class="mycolor text-white" href="index.html" target="_blank">Anurag Jwellar's - </a>
+                Design by <a class="mycolor" href="index.html" target="_blank">AMIT</a> &copy; all rights reserved
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Social Media:
+                <a class="mycolor" href="https://www.facebook.com/anurag.sony.796" target="_blank"><img
+                        src="icons/facebook.png" alt=""></a>
+                &nbsp;
+                <a class="mycolor" href="https://www.instagram.com/anuragsoni8866/" target="_blank"><img
+                        src="icons/instagram.png" alt=""></i></a>
+            </p>
+        </div>
+    </footer>
+    <a id="myTopBtn"><i class="fas fa-arrow-circle-up"></i></a>
+</body>
+<script>
+    //script for AOS
+    AOS.init();
+</script>
+<script>
+    //script for scroll to top
+    $("#myTopBtn").click(function () {
+        $("html, body").animate({ scrollTop: 0 }, 1000);
+    });
+</script>
+
+</html>
