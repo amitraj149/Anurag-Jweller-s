@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Anurag Jwellar's</title>
-    <link rel="icon" href="logo/logo9.png" />
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style-electric.css">
     <link rel="stylesheet" href="style.css">
@@ -28,9 +28,10 @@
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
-    <meta name="author" content="Amit" />
-    <meta name="description" content="This is a Jwellery-Shop website" />
-    <meta name="keywords" content="best Shop in Lalgang Raebareli" />
+
+
+    <title>Anurag Jwellar's</title>
+    <link rel="icon" href="logo/logo9.png" />
 </head>
 
 <body>
@@ -38,7 +39,7 @@
     <nav class="navbar navbar-expand-sm sticky-top bg-dark px-4">
         <a class="navbar-brand" href="index.html">
             <!-- <img id="logo" src='logo/logo11.png' width="120px" /> -->
-            <span class="myfont mycolor text-white">Anurag Jwellar's</span>
+            <span class="myfont mycolor te">Anurag Jwellar's</span>
         </a>
         <button class="navbar-toggler bg-dark text-white" type="button" data-toggle="collapse"
             data-target="#collapsibleNavbar">
@@ -50,12 +51,14 @@
                     <a class="nav-link mycolor" href="index.html">HOME</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link mycolor" href="products.html">PRODUCTS</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link mycolor" href="contact.html">CONTACT</a>
                 </li>
             </ul>
             <div>
-                <a class="nav-link myfont mycolor h5" href="tel:+91-8429221378">CALL US TODAY: <img src="icons/call.png"
-                        alt=""></a>
+                <a class="nav-link myfont mycolor h5" href="tel:+91-9305189315">CALL US TODAY: <img src="icons/call.png" alt=""></a>
             </div>
         </div>
     </nav>
@@ -97,37 +100,39 @@
             </div>
         </div>
     </section>
-    <footer class="text-center p-5 bg-dark">
-        <a class="navbar-brand" href="index.html">
-            <!-- <img src='resource/logo.png' width="35px" /> -->
-            <span class="text-white my-font ">Anurag Jwellar's</span>
-        </a>
-        <hr class="bg-light" />
+    <!-- Footer -->
+    <footer class="bg-dark p-2">
         <div>
             <p class="text-white">
                 <a class="mycolor text-white" href="index.html" target="_blank">Anurag Jwellar's - </a>
                 Design by <a class="mycolor" href="index.html" target="_blank">AMIT</a> &copy; all rights reserved
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                Social Media:
-                <a class="mycolor" href="https://www.facebook.com/anurag.sony.796" target="_blank"><img
-                        src="icons/facebook.png" alt=""></a>
+                <a class="mycolor" href="https://www.facebook.com/anurag.sony.796" target="_blank"> <img
+                        src="icons/facebook.png" alt="" target="_blank"></a>
                 &nbsp;
-                <a class="mycolor" href="https://www.instagram.com/anuragsoni8866/" target="_blank"><img
-                        src="icons/instagram.png" alt=""></i></a>
+                <a class="mycolor" href="https://www.instagram.com/anuragsoni8866/" target="_blank">
+                    <img src="icons/instagram.png" alt="" target="_blank"></i></a>
             </p>
         </div>
     </footer>
     <a id="myTopBtn"><i class="fas fa-arrow-circle-up"></i></a>
 </body>
 <script>
-    //script for AOS
-    AOS.init();
-</script>
-<script>
+    //script for light box
+    $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
+    });
+  </script>
+  
+  <script>
     //script for scroll to top
     $("#myTopBtn").click(function () {
-        $("html, body").animate({ scrollTop: 0 }, 1000);
+      $("html, body").animate({ scrollTop: 0 }, 1000);
     });
-</script>
-
+  </script>
+  
+  <script>
+    AOS.init();
+  </script>
 </html>
